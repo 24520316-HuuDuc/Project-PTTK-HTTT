@@ -1,0 +1,13 @@
+{
+  "name": "hdx-tech-shop",
+  "private": true,
+  "description": "Đồ án PTTK HTTT - Hệ thống quản lý bán hàng trực tuyến HDX Tech (React + Express + MySQL)",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "db:init": "npm run db:init --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  }
+}
